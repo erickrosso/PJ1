@@ -1,0 +1,110 @@
+body{
+    background: rgb(29,209,180);
+    background: radial-gradient(circle, rgba(29,209,180,0.5441526952577906) 0%, rgba(148,154,233,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.principal{
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+.conteudo{
+    margin-top: 100px;
+}
+
+.logo{
+    width: 70px;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+
+.principal h1{
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 24px;
+    font-weight: 400;
+}
+
+.principal input[type=email]{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 250px;
+    height: 18px;
+    font-size: 10px;
+    color: #00000030;
+    margin-left: 24px;
+}
+
+.principal p{
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.53);
+    margin-left: 24px;
+}
+
+.principal a{
+    text-decoration: none;
+    color: rgba(0, 10, 255, 0.61);
+    font-size: 7px;
+}
+
+.link{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+input[type=button]{
+    width: 60px;
+    height: 18px;
+    background-color:  rgba(29, 34, 180, 0.753);
+    color: white;
+    border: none;
+    font-size: 9px;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    background-color: #005DA6;
+}
+
+.botao{
+    text-align: right;
+    margin-right: 40px;
+}
+
+.opcin{
+    margin-top: 17px;
+    background-color: rgb(255, 250, 250);
+    height: 40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.key{
+    margin-top: 11px;
+    margin-left: 24px;
+    width: 21px;
+}
+
+.opcin p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.53);
+    line-height: 40px;
+}
+
+.opcin div{
+    float: right;
+    margin-right: 118px;
+    height: 40px;
+}
